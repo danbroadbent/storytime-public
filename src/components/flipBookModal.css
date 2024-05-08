@@ -1,0 +1,68 @@
+.book-cover {
+  background-image: url("/public/assets/bookcover.jpg");
+  background-size: cover;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.book-cover-content {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.book-cover-text {
+  color: #26231e;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+}
+
+.book-cover-img {
+  max-width: 60vw;
+  max-height: 70vh;
+}
+
+.book-page {
+  width: 80%;
+  background-image: url("/public/assets/bookpage.png");
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  padding-top: 30%;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.book-page img {
+  display: block;
+}
+
+.text-block {
+  padding: 20px;
+}
+
+.text-block p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-number {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+ion-modal.fullscreen {
+  --width: 100%;
+  --height: 100%;
+  --border-radius: 0;
+}

@@ -1,0 +1,37 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+firestore.rules
+storage.rules
+
+# misc
+.DS_Store
+.env
+.env.production
+.vscode
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/.vscode/*
+!/.vscode/extensions.json
+.idea
+firestore-debug.log
+firebase-debug.log
+ui-debug.log
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional eslint cache
+.eslintcache
